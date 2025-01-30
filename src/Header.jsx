@@ -1,7 +1,8 @@
 export default function Header(){
     return (
         <>
-            <p>Here is an Header component</p>
+            <img src="./images/reactjs-icon.png"/>
+            <p>ReactFacts</p>
         </>
     )
 }
