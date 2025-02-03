@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+body {
+    background-color: #282D35;
+}
+
 header {
     background-color: #21222A;
     display: flex;
@@ -17,7 +21,38 @@ header > img {
 
 header > p {
     color: #61DAFB;
-    size: 22.25px;
     font-family: "Inter", serif;
+    font-size: 22.25px;
     font-weight: 700;
+}
+
+main {
+    padding: 40px 20px 40px 20px;
+    background-image: url("./images/reactjs-icon-2.png");
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: center;
+}
+
+main h1, ul {
+    color: white;
+    font-family: "Inter", serif;
+}
+
+main h1 {
+    font-size: 39.06px;
+    padding-bottom: 20px;
+}
+
+main > ul {
+    padding-left: 40px;
+}
+
+main > ul > li {
+    font-weight: 300;
+}
+
+main > ul > li::marker {
+    color: #61DAFB;
+    font-size: 25px;
 }
